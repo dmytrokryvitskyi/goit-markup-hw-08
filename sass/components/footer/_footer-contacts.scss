@@ -1,0 +1,36 @@
+.footer__list {
+    list-style: none;
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-linkmap,
+.footer__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    text-decoration: none;
+
+    transition: color var(--transition-origin);
+}
+
+.footer-linkmap:hover,
+.footer-linkmap:focus {
+    color: var(--highlight-color);
+}
+
+.footer__link {
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color var(--transition-origin);
+}
+
+.footer__link:hover,
+.footer__link:focus {
+    color: var(--highlight-color);
+}

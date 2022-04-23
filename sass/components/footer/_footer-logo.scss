@@ -1,0 +1,20 @@
+.logo-web {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo-web,
+.logo-web__text {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+.logo-web__text {
+    color: var(--white-color);
+}

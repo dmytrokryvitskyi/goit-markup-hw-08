@@ -1,0 +1,19 @@
+.hero__button {
+    display: inline-block;
+    text-align: center;
+
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+    padding: 10px 32px;
+    min-width: 200px;
+    min-height: 50px;
+
+    transition: background-color var(--transition-origin), color var(--transition-origin);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+    background-color: var(--white-color);
+    color: var(--highlight-color);
+}
