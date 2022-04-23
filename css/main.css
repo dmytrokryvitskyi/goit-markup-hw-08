@@ -75,6 +75,16 @@ img {
   padding-bottom: 94px;
 }
 
+.section__title {
+  color: var(--main-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .btn {
   background-color: var(--highlight-color);
   color: var(--white-color);
@@ -235,17 +245,7 @@ img {
   color: var(--highlight-color);
 }
 
-.advantages__title {
-  color: var(--main-black);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.advantages__list {
+.advantages {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -277,7 +277,7 @@ img {
   display: block;
 }
 
-.advantages__subject {
+.advantages__title {
   color: var(--main-black);
   font-weight: 700;
   font-size: 14px;
@@ -293,21 +293,11 @@ img {
   letter-spacing: 0.03em;
 }
 
-.activity {
+.section--no_padding_top {
   padding-top: 0px;
 }
 
-.activity__title {
-  color: var(--main-black);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.activity__list {
+.activity {
   display: flex;
   align-items: center;
   list-style: none;
@@ -343,21 +333,11 @@ img {
   color: var(--white-color);
 }
 
-.team {
+.section--other_background {
   background-color: var(--additional-background-color);
 }
 
-.team__title {
-  color: var(--main-black);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.team__list {
+.team {
   display: flex;
   align-items: center;
   list-style: none;
@@ -374,7 +354,7 @@ img {
   margin-right: 0px;
 }
 
-.team__text {
+.team__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -446,17 +426,7 @@ img {
   fill: var(--white-color);
 }
 
-.clients__title {
-  color: var(--main-black);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.clients__list {
+.clients {
   display: flex;
   align-items: center;
   justify-content: center;

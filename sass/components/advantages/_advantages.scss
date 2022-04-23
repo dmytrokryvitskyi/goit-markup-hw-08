@@ -1,14 +1,4 @@
-.advantages__title {
-    color: var(--main-black);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.advantages__list {
+.advantages {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +31,7 @@
     display: block;
 }
 
-.advantages__subject {
+.advantages__title {
     color: var(--main-black);
     font-weight: 700;
     font-size: 14px;
