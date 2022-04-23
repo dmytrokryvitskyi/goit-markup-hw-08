@@ -10,10 +10,10 @@
     min-height: 50px;
 
     transition: background-color var(--transition-origin), color var(--transition-origin);
-}
 
-.hero__button:hover,
-.hero__button:focus {
-    background-color: var(--white-color);
-    color: var(--highlight-color);
+    &:hover,
+    &:focus {
+        background-color: var(--white-color);
+        color: var(--highlight-color);
+    }
 }

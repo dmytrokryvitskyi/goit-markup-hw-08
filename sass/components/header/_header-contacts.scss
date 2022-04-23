@@ -11,10 +11,9 @@
     justify-content: center;
     margin-right: 50px;
 
-}
-
-.site-contact__item:last-child {
-    margin-right: 0px;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 
 .site-contact__icon {
@@ -38,10 +37,9 @@
     align-items: center;
 
     transition: color var(--transition-origin);
-}
 
-.site-contact__link:hover,
-.site-contact__link:focus {
-    color: var(--highlight-color);
+    &:hover,
+    &:focus {
+        color: var(--highlight-color);
+    }
 }
-

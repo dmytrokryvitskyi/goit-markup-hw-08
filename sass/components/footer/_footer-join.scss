@@ -29,13 +29,14 @@
     height: 44px;
 
     transition: background-color var(--transition-origin);
-}
 
-.footer-join__link:hover,
-.footer-join__link:focus {
-    background-color: var(--highlight-color);
+    &:hover,
+    &:focus {
+        background-color: var(--highlight-color);
+    }
 }
 
 .footer-join__icon {
     fill: var(--white-color);
 }
+

@@ -65,6 +65,15 @@
 
     cursor: pointer;
     transition: border-color var(--transition-origin);
+
+    &:hover,
+    &:focus {
+        border-color: var(--highlight-color);
+    }
+
+    &:focus-within{
+        border-color: var(--highlight-color);
+    }
 }
 
 .modal-input-icon {
@@ -72,21 +81,18 @@
     left: 0%;
     top: 0%;
     transform: translate(15px, 30px);
+
+    .modal-input:hover~&,
+    .modal-input:focus-within~&{
+        fill: var(--highlight-color);
+    }
+
 }
 
-.modal-input:hover,
-.modal-input:focus {
-    border-color: var(--highlight-color);
-}
-
-.modal-input:focus-within {
-    border-color: var(--highlight-color);
-}
-
-.modal-input:hover~.modal-input-icon,
-.modal-input:focus-within~.modal-input-icon {
-    fill: var(--highlight-color);
-}
+// .modal-input:hover~.modal-input-icon,
+// .modal-input:focus-within~.modal-input-icon {
+//     fill: var(--highlight-color);
+// }
 
 .textarea {
     margin-right: auto;
@@ -105,23 +111,23 @@
     cursor: pointer;
 
     transition: border-color var(--transition-origin);
-}
 
-.modal-textarea:hover,
-.modal-textarea:focus {
-    border-color: var(--highlight-color);
-}
+    &:hover,
+    &:focus {
+        border-color: var(--highlight-color);
+    }
 
-.modal-textarea:focus-within {
-    border-color: var(--highlight-color);
-}
+    &:focus-within {
+        border-color: var(--highlight-color);
+    }
 
-.modal-textarea::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5)
+    &::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5)
+    }
 }
 
 .checkbox {
@@ -158,13 +164,13 @@
     margin-bottom: 4px;
     margin-right: 8px;
 
-}
+    .input-checkbox:checked+&{
+        background-color: var(--highlight-color);
+            opacity: 1;
+            visibility: visible;
+            pointer-events: initial;
+    }
 
-.input-checkbox:checked+.checkbox-border {
-    background-color: var(--highlight-color);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: initial;
 }
 
 .modal-checkbox-link {
@@ -185,10 +191,4 @@
     border-radius: 6px;
 
     transition: box-shadow var(--transition-origin);
-}
-
-.footer-subscribe-button:hover,
-.footer-subscribe-button:focus {
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

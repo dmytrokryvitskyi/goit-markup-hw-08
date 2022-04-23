@@ -9,10 +9,10 @@
 
 .socials__item {
     margin-right: 10px;
-}
 
-.socials__item:last-child {
-    margin-right: 0px;
+    &:last-child{
+        margin-right: 0px;
+    }
 }
 
 .socials__link {
@@ -26,25 +26,25 @@
     background-color: var(--white-color);
 
     transition: background-color var(--transition-origin);
-}
 
-.socials__link:hover,
-.socials__link:focus {
-    background-color: var(--highlight-color);
+    &:hover,
+    &:focus{
+        background-color: var(--highlight-color);
+    }
 }
 
 .socials__icon {
     fill: var(--border-background-color);
 
     transition: fill var(--transition-origin);
-}
 
-.socials__icon:hover,
-.socials__icon:focus {
-    fill: var(--white-color);
-}
+    &:hover,
+    &:focus{
+        fill: var(--white-color);
+    }
 
-.socials__link:hover .socials__icon,
-.socials__link:focus .socials__icon {
-    fill: var(--white-color);
+    .socials__link:hover &,
+    .socials__link:focus &{
+        fill: var(--white-color);
+    }
 }

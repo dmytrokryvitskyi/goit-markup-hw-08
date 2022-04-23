@@ -7,10 +7,10 @@
 .site-nav__item {
     position: relative;
     margin-right: 50px;
-}
 
-.site-nav__item:last-child {
-    margin-right: 0px;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 
 .site-nav__link {
@@ -25,10 +25,10 @@
     letter-spacing: 0.02em;
 
     transition: color var(--transition-origin);
-}
 
-.site-nav__link:hover,
-.site-nav__link:focus {
-    color: var(--highlight-color);
+    &:hover,
+    &:focus {
+        color: var(--highlight-color);
+    }
 }
 

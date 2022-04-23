@@ -21,11 +21,12 @@
 
 .activity__item {
     margin-right: 30px;
+
+    &:last-child{
+        margin-right: 0px;
+    }
 }
 
-.activity__item:last-child {
-    margin-right: 0px;
-}
 
 .activity__box {
     position: relative;

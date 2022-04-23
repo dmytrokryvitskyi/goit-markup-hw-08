@@ -18,10 +18,10 @@
 
 .clients__item {
     margin-right: 30px;
-}
 
-.clients__item:last-child {
-    margin-right: 0px;
+    &:last-child{
+        margin-right: 0px;
+    }
 }
 
 .clients__link {
@@ -35,20 +35,25 @@
 
     transition: border-color var(--transition-origin);
     transition: fill var(--transition-origin);
-}
 
-.clients__link:hover,
-.clients__link:focus {
-    border-color: var(--highlight-color);
+    &:hover,
+    &:focus {
+        border-color: var(--highlight-color);
+    }
 }
 
 .clients__icon {
     fill: var(--border-background-color);
 
     transition: fill var(--transition-origin);
-}
 
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
-    fill: var(--highlight-color);
+    .clients__link:hover & {
+        fill:var(--highlight-color)
+    }  
+
 }
+// Альтернатива для .clients__link:hover &
+// .clients__link:hover .clients__icon,
+// .clients__link:focus .clients__icon {
+//     fill: var(--highlight-color);
+// }
