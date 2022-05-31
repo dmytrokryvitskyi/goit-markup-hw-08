@@ -10,5 +10,29 @@
 .header__nav {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 767px){
+        justify-content: space-between;        
+    }
 }
 
+.header-button{
+    display: block;
+    padding: 0 0;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+
+
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+.header-button__icon--open{
+    opacity: 1;
+}
+
+.header-button__icon--close{
+    opacity: 0;
+}

@@ -1,62 +1,57 @@
 // VARIABLES
-@import "./utils/vars";
+@import './utils/vars';
 
 // Non-Visiable
-@import "./utils/non-visiable";
+@import './utils/non-visiable';
 
 // Current
-@import "./utils/current";
+@import './utils/current';
 
 // ЗАГАЛЬНА СТИЛІЗАЦІЯ СТОРІНКИ
-@import "./components/base/base";
+@import './components/base/base';
 
 // КОМПОНЕНТА
-@import "./components/components";
+@import './components/components';
 
 // HEADER
-@import "./components/header/header-general";
-@import "./components/header/header-logo";
-@import "./components/header/header-navigation";
-@import "./components/header/header-contacts";
+@import './components/header/header-general';
+@import './components/header/header-logo';
+@import './components/header/header-navigation';
+@import './components/header/header-contacts';
 
 // HERO
-@import "./components/hero/hero-general";
-@import "./components/hero/hero-title";
-@import "./components/hero/hero-button";
+@import './components/hero/hero-general';
+@import './components/hero/hero-title';
+@import './components/hero/hero-button';
 
 // ADVANTAGES
-@import "./components/advantages/advantages";
+@import './components/advantages/advantages';
 
 // ACTIVITY
-@import "./components/activity/activity";
+@import './components/activity/activity';
 
 // TEAM
-@import "./components/team/team";
-@import "./components/team/socials";
+@import './components/team/team';
+@import './components/team/socials';
 
 // CLIENTS
-@import "./components/clients/clients";
+@import './components/clients/clients';
 
 // FOOTER
-@import "./components/footer/footer-general";
-@import "./components/footer/footer-logo";
-@import "./components/footer/footer-contacts";
-@import "./components/footer/footer-join";
-@import "./components/footer/footer-subscribe";
+@import './components/footer/footer-general';
+@import './components/footer/footer-logo';
+@import './components/footer/footer-contacts';
+@import './components/footer/footer-join';
+@import './components/footer/footer-subscribe';
 
 // Portfolio
-@import "./components/portfolio/portfolio-general";
+@import './components/portfolio/portfolio-general';
 @import './components/portfolio/portfolio-buttons';
-@import "./components/portfolio/portfolio-cards";
-@import "./components/portfolio/portfolio-overlay";
-@import "./components/portfolio/portfolio-borders";
+@import './components/portfolio/portfolio-cards';
+@import './components/portfolio/portfolio-overlay';
+@import './components/portfolio/portfolio-borders';
 
 // MODAL WINDOW
-@import "./components/modal-window/backdrop";
-@import "./components/modal-window/window";
-@import "./components/modal-window/close-button";
-
-
-
-
-
+@import './components/modal-window/backdrop';
+@import './components/modal-window/window';
+@import './components/modal-window/close-button';
