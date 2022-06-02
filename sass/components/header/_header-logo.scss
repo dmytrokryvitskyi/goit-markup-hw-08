@@ -1,13 +1,16 @@
 .logo {
     display: block;
-    color: var(--main-black);
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
     padding-top: 16px;
     padding-bottom: 16px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    color: var(--main-black);
+    text-decoration: none;
     
     @media  screen and (min-width: 768px){
         margin-right: 88px; 
@@ -17,10 +20,12 @@
 
     @media screen and (min-width: 1200px){
         margin-right: 93px;
+        
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
     }
 }
-
-
 
 .logo__text {
     color: var(--highlight-color);

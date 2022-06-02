@@ -5,13 +5,15 @@
 .header__container {
     display: flex;
     align-items: center;
+    
 }
 
 .header__nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
-
+    
     @media screen and (max-width: 767px){
         justify-content: space-between;        
     }
@@ -19,6 +21,7 @@
 
 .header-button{
     position: relative;
+    margin-left: auto;
     display: block;
     padding: 0 0;
     background-color: transparent;

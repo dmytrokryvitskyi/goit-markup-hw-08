@@ -1,8 +1,11 @@
 .site-nav {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    display: none;
+        display: none;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
 }
 
 .site-nav__item {
