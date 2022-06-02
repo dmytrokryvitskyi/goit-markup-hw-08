@@ -10,6 +10,7 @@
 .header__nav {
     display: flex;
     align-items: center;
+    width: 100%;
 
     @media screen and (max-width: 767px){
         justify-content: space-between;        
@@ -17,22 +18,32 @@
 }
 
 .header-button{
+    position: relative;
     display: block;
     padding: 0 0;
     background-color: transparent;
     border: transparent;
     cursor: pointer;
+    z-index: 10;
 
-
-    @media screen and (min-width:768px) {
-        display: none;
+    @media screen and (min-width:768px){
+    display: none;
     }
 }
 
-.header-button__icon--open{
+.header-button:hover,
+.header-button:focus{
+    fill: var(--highlight-color)
+}
+
+.header-button__icon--close {
+    opacity: 0;
+}
+
+.header-button.is-active .header-button__icon--close {
     opacity: 1;
 }
 
-.header-button__icon--close{
+.header-button.is-active .header-button__icon--open {
     opacity: 0;
 }
