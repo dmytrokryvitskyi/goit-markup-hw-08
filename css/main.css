@@ -562,6 +562,12 @@ img {
   padding-top: 0px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .section--no_padding_top {
+    display: none;
+  }
+}
+
 .activity {
   display: flex;
   align-items: center;
